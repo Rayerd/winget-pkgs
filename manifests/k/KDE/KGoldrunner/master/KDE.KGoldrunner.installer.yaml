@@ -9,14 +9,14 @@ ProductCode: kgoldrunner
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1032-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: CDC6E46FC8EDAAE2A15E2A6B97436C24E2298DE7B079A02DAF3F729AA1E8AEE0
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1048-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3A4BA4615ED08106B272BAC08F8FDE8AE63DB5E7288CF12B96CB4BC8ED546C96
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1032-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: CDC6E46FC8EDAAE2A15E2A6B97436C24E2298DE7B079A02DAF3F729AA1E8AEE0
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1048-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3A4BA4615ED08106B272BAC08F8FDE8AE63DB5E7288CF12B96CB4BC8ED546C96
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

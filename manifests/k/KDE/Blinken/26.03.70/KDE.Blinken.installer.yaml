@@ -9,14 +9,14 @@ ProductCode: Blinken
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/education/blinken/master/windows/blinken-master-727-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 404E1CA2ED4F748DC6BEEDF36707C26F7944867A3BDB92BD656E9685DA901ACA
+  InstallerUrl: https://cdn.kde.org/ci-builds/education/blinken/master/windows/blinken-master-741-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 70C85583031656DC9576E4E8C8E04FBD6E2FBEA5053427606BD04CA2A24026C5
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/education/blinken/master/windows/blinken-master-727-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 404E1CA2ED4F748DC6BEEDF36707C26F7944867A3BDB92BD656E9685DA901ACA
+  InstallerUrl: https://cdn.kde.org/ci-builds/education/blinken/master/windows/blinken-master-741-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 70C85583031656DC9576E4E8C8E04FBD6E2FBEA5053427606BD04CA2A24026C5
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
