@@ -1,14 +1,17 @@
-# Created with komac v2.16.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# Created with komac v2.17.2
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: OpenJS.Electron.40
 PackageVersion: 40.10.5
+InstallerLocale: en-US
 InstallerType: zip
 NestedInstallerType: portable
 NestedInstallerFiles:
 - RelativeFilePath: electron.exe
+  PortableCommandAlias: electron
 UpgradeBehavior: install
 ReleaseDate: 2026-06-23
+ArchiveBinariesDependOnPath: true
 Installers:
 - Architecture: x86
   InstallerUrl: https://github.com/electron/electron/releases/download/v40.10.5/electron-v40.10.5-win32-ia32.zip
@@ -20,4 +23,4 @@ Installers:
   InstallerUrl: https://github.com/electron/electron/releases/download/v40.10.5/electron-v40.10.5-win32-arm64.zip
   InstallerSha256: A75F8BD0714EFB5A9E64E09F289F2940564E7F9D2B758D928D67323BFCB4A05D
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
